@@ -1,0 +1,190 @@
+/*
+  The body covers the whole page's default settings
+*/
+body {
+    /*width:960px;*/
+    margin-top:0;
+    /*margin-left:100px;*/
+    font-family: 'Krub', sans-serif;
+    color:#777777;
+    line-height: 1.6;
+    background-image:url("../images/full-bloom.png");
+
+
+}
+
+/*
+Sets Headings Color
+*/
+
+h1,h2,h3 {
+    color:#4aaaa5
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+/*
+Sets Page's Header Setiings
+*/
+header {
+    width:100%;
+    height:75px;
+    background-color:#ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom:0px;
+}
+
+/*
+Sets Page's Footer Setiings
+*/
+
+footer {
+    width:100%;
+    height:40px;
+    background-color:#666666;
+    border:1px;
+    border-color: #cccccc;
+    border-style: solid;
+    text-align: center;
+    color:whitesmoke;
+    padding:10px 0px  0px 0px;
+}
+
+/* 
+ ** TODO**
+ Tried to change the thickness of the Horizontal line, but had no affect - 
+ Need to Investigate
+*/
+hr {
+    size:4px;
+}
+
+/*
+Sets the pages's main section height. This was done so that the header, footer and
+the main section all show up on a typical computer screen
+*/
+main {
+    width:960px;
+    height:550px;
+    margin-top:15px;
+    margin-left:300px;
+    padding-left: 30px;
+    background-color:#ffffff;
+    border : 1px solid #dddddd;
+}
+
+#timer-countdown, #question-area, .btn-group {
+    text-align: center;
+    font-size: 2rem;
+    display: none;
+}
+
+.line {
+    width:98%;
+    border-bottom: 2px solid #777777;
+    margin-bottom: 10px;
+    
+}
+
+
+ /*
+ Settings to control the left size of the header
+ */
+#header-left {
+    float:left;
+    margin:0px 0px 0px 300px;
+    padding:15px 40px 0px 40px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    height:60px;
+}
+
+
+
+/*
+Setting for the Submit Button
+*/
+#submit {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    height:40px;
+    width:100px;
+    font-size: 20px;
+    }
+
+.button {
+  display: block;
+  margin:auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+
+
+#answer-list-type {
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#answer-option-1, #answer-option-2, #answer-option-3, #answer-option-4 {
+
+    display: block;
+  margin:auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: none;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+
+#answer-option-1,  #answer-option-2, #answer-option-3{
+    border-bottom: none;
+}
+
+#answer-option-1:hover, #answer-option-2:hover , #answer-option-3:hover ,#answer-option-4:hover  {
+    background-color: #3e8e41;
+}
