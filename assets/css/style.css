@@ -75,7 +75,7 @@ main {
     border : 1px solid #dddddd;
 }
 
-#timer-countdown, #question-area, .btn-group {
+#timer-countdown, #correct-answer-field, #question-area, .btn-group {
     text-align: center;
     font-size: 2rem;
     display: none;
@@ -138,6 +138,7 @@ Setting for the Submit Button
   transform: translateY(4px);
 }
 
+
 .btn-group .button {
     background-color: #4CAF50; /* Green */
     border: 1px solid green;
@@ -157,6 +158,23 @@ Setting for the Submit Button
 }
 
 
+
+#restart-button {
+    display:none;
+    margin:auto;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4aaaa5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
 
 #answer-list-type {
     list-style-type: none;
