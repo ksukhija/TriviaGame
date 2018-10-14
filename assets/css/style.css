@@ -75,7 +75,7 @@ main {
     border : 1px solid #dddddd;
 }
 
-#timer-countdown, #correct-answer-field, #question-area, .btn-group {
+#timer-countdown, #question-area, #correct-answer-field, .btn-group {
     text-align: center;
     font-size: 2rem;
     display: none;
@@ -114,7 +114,7 @@ Setting for the Submit Button
     font-size: 20px;
     }
 
-.button {
+#start-button {
   display: block;
   margin:auto;
   padding: 15px 25px;
@@ -159,7 +159,7 @@ Setting for the Submit Button
 
 
 
-#restart-button {
+#restart-button  {
     display:none;
     margin:auto;
     padding: 15px 25px;
@@ -176,11 +176,7 @@ Setting for the Submit Button
   }
   
 
-#answer-list-type {
-    list-style-type: none;
-    font-size: 1.5rem;
-    text-align: center;
-}
+
 
 #answer-option-1, #answer-option-2, #answer-option-3, #answer-option-4 {
 
@@ -205,4 +201,8 @@ Setting for the Submit Button
 
 #answer-option-1:hover, #answer-option-2:hover , #answer-option-3:hover ,#answer-option-4:hover  {
     background-color: #3e8e41;
+}
+
+#correct-answer-field, #timer-countdown {
+    color:red;
 }
