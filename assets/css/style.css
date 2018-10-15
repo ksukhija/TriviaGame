@@ -25,6 +25,7 @@ h1,h2,h3 {
 h1 {
     font-size: 2.5em;
 }
+
 /*
 Sets Page's Header Setiings
 */
@@ -52,14 +53,6 @@ footer {
     padding:10px 0px  0px 0px;
 }
 
-/* 
- ** TODO**
- Tried to change the thickness of the Horizontal line, but had no affect - 
- Need to Investigate
-*/
-hr {
-    size:4px;
-}
 
 /*
 Sets the pages's main section height. This was done so that the header, footer and

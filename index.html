@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <title>Basic Portfolio</title>
 
+    <!-- Use Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+
+    <!-- link to project style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- Added link to the jQuery library -->
@@ -15,7 +18,7 @@
 </head>
 
 <body>
-    <!-- Page Header -  This is common in all pages of the website: -->
+    <!-- Page Header  -->
     <header>
         <H1 id="header-left"> TRIVIA GAME</H1>
     </header>
@@ -39,20 +42,24 @@
             </button>
         </div>
 
+        <!--  Game Area - here the game is played -->
         <div class="game-inProgress-content">
-
-            <p id="timer-countdown"> Time Left: </p>
-            <p id="question-area"> Questions</p>
+            <!-- time left in seconds is display here -->
+            <p id="timer-countdown"> </p>
+            <!-- the question is displayed here-->
+            <p id="question-area"> </p>
+            <!-- the answer options for the above questions are displayed here -->
             <div class="btn-group">
                 <button id="answer-option-1">AnswersOption1</button>
                 <button id="answer-option-2">AnswersOption2</button>
                 <button id="answer-option-3">AnswersOption3</button>
                 <button id="answer-option-4">AnswersOption4</button>
             </div>
+            <!-- if the user did not choose the correct answer, the correct answer is diplayed over here -->
             <p id="correct-answer-field"></p>
-
         </div>
 
+        <!-- After one session of the game, user is provided with an option to replay the game by clicking on the button below-->
         <div>
             <button id="restart-button">
                 <!-- CLICK TO Re-START THE GAME -->
@@ -61,14 +68,10 @@
         </div>
     </main>
 
-
-
-
-<!--
     <footer>
         Copywright &copy
     </footer>
--->
+
     <!-- Loading the Javasript after all the HTML code -->
     <script src="./assets/javascript/app.js"></script>
 </body>
