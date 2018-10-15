@@ -62,7 +62,7 @@ main {
     width:960px;
     height:550px;
     margin-top:15px;
-    margin-left:300px;
+    margin-left:auto;
     padding-left: 30px;
     background-color:#ffffff;
     border : 1px solid #dddddd;
